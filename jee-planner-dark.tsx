@@ -107,7 +107,7 @@ const subjectData = {
   ],
 }
 
-const years = ["Basics", "2024", "2022-23", "2019-21", "Revision 1", "Revision 2"]
+const years = ["Short Notes", "Mains PYQs", "Mains errors", "Adv Notes", "Adv PYQs (and Qs)", "Adv Errors"]
 
 export default function Component() {
   const [completedTopics, setCompletedTopics] = useState<{[key: string]: boolean}>({})
